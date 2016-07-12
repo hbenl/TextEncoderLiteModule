@@ -3,9 +3,6 @@ function TextEncoderLite() {
 function TextDecoderLite() {
 }
 
-(function () {
-'use strict';
-
 // Taken from https://github.com/feross/buffer/blob/master/index.js
 // Thanks Feross et al! :-)
 
@@ -132,4 +129,5 @@ TextDecoderLite.prototype.decode = function (bytes) {
   return utf8Slice(bytes, 0, bytes.length);
 }
 
-}());
+exports.TextEncoderLite = TextEncoderLite;
+exports.TextDecoderLite = TextDecoderLite;
