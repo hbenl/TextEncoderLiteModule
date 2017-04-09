@@ -3,11 +3,13 @@
   "author": "Holger Benl <hbenl@evandor.de>",
   "contributors": [
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Lite Polyfill for the Encoding Living Standard's API.",
   "main": "index.js",
+  "typings": "index",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
